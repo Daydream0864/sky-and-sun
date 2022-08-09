@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+
+body {
+    font-family: Z003;
+    font-style: italic;
+    background-color: rgba(254, 255, 212, 1);
+}
+
+.fade-In {
+    position: absolute;
+    padding: 9px;
+    margin: 1em;
+    transform: translateX(50px);
+    border: solid rgb(117, 80, 80);
+    color: azure;
+    text-align: center;
+    border-radius: 1pc;
+}
+
+section {
+
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+
+}
+/* =================================================================
+/* Copy this @keyframes block to your CSS*/
+@keyframes yourAnimation {
+    0.0% {
+        opacity: 0;
+    }
+
+    50.0% {
+        opacity: 1;
+    }
+
+    100.0% {
+        opacity: 0;
+    }
+
+
+}
+
+
+/* Add the animation: property to whichever element you want to animate */
+#reveal1 {
+    animation: yourAnimation 5s linear 0s 1 normal forwards;
+}
+
+.lol {
+    color: rgba(254, 255, 212, 1);
+    /* color: aqua; */
+    font-size: 50px;
+    padding-top: 40vh;
+    text-justify: auto;
+    text-align: center;
+    /* background-color gradient */
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(7, 12, 34, 1) 57%, rgba(254, 255, 212, 1) 100%);
+
+
+}
+
+/* ---------------------------------------------------------------- */
+@keyframes yourAnimation2 {
+    0.0% {
+        opacity: 0;
+    }
+
+    50.0% {
+        opacity: 1;
+    }
+
+    100.0% {
+        opacity: 0;
+    }
+}
+
+
+#reveal2 {
+    position: inherit;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    animation: yourAnimation2 5s linear 0s 1 normal forwards;
+
+}
+
+/* ----------------------------------------------------------------     
+*/
+@keyframes yourAnimation3 {
+    0.0% {
+        opacity: 0;
+    }
+
+    50.0% {
+        opacity: 1;
+    }
+
+    100.0% {
+        opacity: 0;
+    }
+}
+
+#reveal3 {
+    display: none;
+    position: inherit;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    animation: yourAnimation3 5s linear 0s 1 normal forwards;
+
+}
+
+/* ----------------------------------------------------------------   
+*/
+@keyframes yourAnimation4 {
+    0.0% {
+        opacity: 0;
+    }
+
+
+
+    100.0% {
+        opacity: 1;
+    }
+}
+
+#reveal4 {
+    display: none;
+    position: inherit;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    animation: yourAnimation4 3s linear 0s 1 normal forwards;
+
+}
+
+/* ----------------------------------------------------------------    */
+
+.pics {
+    color: rgb(0, 0, 0);
+    background-color: rgba(254, 255, 212, 1);
+
+
+}
+
+.pics2 {
+    color: blueviolet;
+    background: rgba(254, 255, 212, 1);
+    background-repeat: repeat;
+    color: transparent;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+.MyGallery {
+    text-align: center;
+    font-size: 80px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper>* {
+    margin: 9px;
+    border-radius: 1pc;
+}
+
+.media {
+    width: 570px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------- */
+.fotter {
+    background-color: rgba(254, 255, 212, 1);
+
+}
+
+.fotter2 {
+
+    background-color: rgba(254, 255, 212, 1);
+    left: 50%;
+    right: 50%;
+    
+    background-color: black;
+
+
+}
+
+#fotter3 {
+    background-color: rgba(254, 255, 212, 1);
+    text-align: center;
+    font-size: xx-large;
+    line-height: normal;
+    height: 10vh;
+    margin-bottom: 10px;
+
+}

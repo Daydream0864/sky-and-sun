@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
+body {
+  font-family: Z003;
+  font-style: italic;
+  background-color: rgb(254, 255, 212);
+}
+
+.fade-In {
+  position: absolute;
+  padding: 9px;
+  margin: 1em;
+  transform: translateX(50px);
+  border: solid rgb(117, 80, 80);
+  color: azure;
+  text-align: center;
+  border-radius: 1pc;
+}
+
+section {
+  background-color: rgb(0, 0, 0);
+  height: 90vh;
+}
+
+/* =================================================================
+/* Copy this @keyframes block to your CSS*/
+@-webkit-keyframes yourAnimation {
+  0.0% {
+    opacity: 0;
+  }
+  50.0% {
+    opacity: 1;
+  }
+  100.0% {
+    opacity: 0;
+  }
+}
+@keyframes yourAnimation {
+  0.0% {
+    opacity: 0;
+  }
+  50.0% {
+    opacity: 1;
+  }
+  100.0% {
+    opacity: 0;
+  }
+}
+/* Add the animation: property to whichever element you want to animate */
+#reveal1 {
+  -webkit-animation: yourAnimation 5s linear 0s 1 normal forwards;
+          animation: yourAnimation 5s linear 0s 1 normal forwards;
+}
+
+.lol {
+  color: rgb(254, 255, 212);
+  /* color: aqua; */
+  font-size: 50px;
+  padding-top: 40vh;
+  text-justify: auto;
+  text-align: center;
+  /* background-color gradient */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(7, 12, 34) 57%, rgb(254, 255, 212) 100%);
+}
+
+/* ---------------------------------------------------------------- */
+@-webkit-keyframes yourAnimation2 {
+  0.0% {
+    opacity: 0;
+  }
+  50.0% {
+    opacity: 1;
+  }
+  100.0% {
+    opacity: 0;
+  }
+}
+@keyframes yourAnimation2 {
+  0.0% {
+    opacity: 0;
+  }
+  50.0% {
+    opacity: 1;
+  }
+  100.0% {
+    opacity: 0;
+  }
+}
+#reveal2 {
+  position: inherit;
+  display: block;
+  -webkit-margin-before: 0.83em;
+          margin-block-start: 0.83em;
+  -webkit-margin-after: 0.83em;
+          margin-block-end: 0.83em;
+  -webkit-animation: yourAnimation2 5s linear 0s 1 normal forwards;
+          animation: yourAnimation2 5s linear 0s 1 normal forwards;
+}
+
+/* ----------------------------------------------------------------     
+*/
+@-webkit-keyframes yourAnimation3 {
+  0.0% {
+    opacity: 0;
+  }
+  50.0% {
+    opacity: 1;
+  }
+  100.0% {
+    opacity: 0;
+  }
+}
+@keyframes yourAnimation3 {
+  0.0% {
+    opacity: 0;
+  }
+  50.0% {
+    opacity: 1;
+  }
+  100.0% {
+    opacity: 0;
+  }
+}
+#reveal3 {
+  display: none;
+  position: inherit;
+  display: block;
+  -webkit-margin-before: 0.83em;
+          margin-block-start: 0.83em;
+  -webkit-margin-after: 0.83em;
+          margin-block-end: 0.83em;
+  -webkit-animation: yourAnimation3 5s linear 0s 1 normal forwards;
+          animation: yourAnimation3 5s linear 0s 1 normal forwards;
+}
+
+/* ----------------------------------------------------------------   
+*/
+@-webkit-keyframes yourAnimation4 {
+  0.0% {
+    opacity: 0;
+  }
+  100.0% {
+    opacity: 1;
+  }
+}
+@keyframes yourAnimation4 {
+  0.0% {
+    opacity: 0;
+  }
+  100.0% {
+    opacity: 1;
+  }
+}
+#reveal4 {
+  display: none;
+  position: inherit;
+  display: block;
+  -webkit-margin-before: 0.83em;
+          margin-block-start: 0.83em;
+  -webkit-margin-after: 0.83em;
+          margin-block-end: 0.83em;
+  -webkit-animation: yourAnimation4 3s linear 0s 1 normal forwards;
+          animation: yourAnimation4 3s linear 0s 1 normal forwards;
+}
+
+/* ----------------------------------------------------------------    */
+.pics {
+  color: rgb(0, 0, 0);
+  background-color: rgb(254, 255, 212);
+}
+
+.pics2 {
+  color: blueviolet;
+  background: rgb(254, 255, 212);
+  background-repeat: repeat;
+  color: transparent;
+}
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+.MyGallery {
+  text-align: center;
+  font-size: 80px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper > * {
+  margin: 9px;
+  border-radius: 1pc;
+}
+
+.media {
+  width: 570px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------------------------------------------- */
+.fotter {
+  background-color: rgb(254, 255, 212);
+}
+
+.fotter2 {
+  background-color: rgb(254, 255, 212);
+  left: 50%;
+  right: 50%;
+  background-color: black;
+}
+
+#fotter3 {
+  background-color: rgb(254, 255, 212);
+  text-align: center;
+  font-size: xx-large;
+  line-height: normal;
+  height: 10vh;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
